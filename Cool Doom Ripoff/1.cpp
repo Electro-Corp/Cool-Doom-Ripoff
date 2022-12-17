@@ -1,9 +1,9 @@
 #include <iostream>
 
-class Player {
+class f {
 public:
 	int x, y;
-	Player() {
+	f() {
 		this->x = 1;
 		this->y = 2;
 	}
