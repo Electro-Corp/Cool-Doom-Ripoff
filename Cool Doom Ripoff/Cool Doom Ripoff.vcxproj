@@ -140,15 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Obease Filesystem\display.cpp" />
-    <ClCompile Include="..\..\Obease Filesystem\Source2.cpp" />
-    <ClCompile Include="..\Player.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\map.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\test.map" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
