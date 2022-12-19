@@ -1,10 +1,9 @@
 #include <iostream>
 #include "Player.h"
-#include "Map.h"
+#include "Map.cpp"
 
 int main() {
-	Map* m = new Map(20, 20);
-	m->render();
-	std::cout << "hello world";
+	Map m(20,20);
+	m.render();
 	return 0;
 }
